@@ -244,11 +244,11 @@ if __name__ == '__main__':
     # 淘宝用户名：手机 用户名 都可以
     loginId = ''
     # 改版后增加的参数，后面考虑解密这个参数
-    umidToken = 'e5a8b80533d04c57125fb8b9fa6b85d552fc252a',
+    umidToken = '',
     # 淘宝重要参数，从浏览器或抓包工具中复制，可重复使用
-    ua = ua = '123#rR6DbWKBB9Ku9QbxlDlG8ldEz6XHO1A9926XyHR+Fl/HzaHKDcQuwpJ8sxIMrJOqihxHbimx8vmBcWJ4Uen7QLohhuEd8PeuN0aD/sAQEfVd0kYticV+oFhYTvhH9jJqOUaqrgjACpVluVqiNfQgR+PaX2zlFW+sbeDSckP6qGtE7sg+NHel9hX2Sg37Y3yBSjAZLsH3ZHZ70yvnRrNsHxqlY5v1ffumqsbyroY+gz2i4eTsnQMeuBq8X8hRpv8NAmYejPeuzhvriVX4Ems91cT3lvqbQvJXbnL5aR8veJQjZId0RDxXTiJpWGanaeCODY2PiCHAsjfl3W/aDda2kgo0WtlhSYqMKjg3jlOgKp5eln0qcAq3u/spDk4V95X+JkcDVhRnvj8owBTSBar1rKehV+89bq1Jr+NFKsALgkOruKKJkPQOAkl0UU8l5RSr+5agUBXVl29kMxLOCETYym3GiQywJFgzqmvoTqmwLG0E4AWIdK6yMUd25HadrdMj12WAhirTj9TjNeEuhgJCN7j/7/k+YikSUj6oetvrnCnL6gF6xHZIhqWI1MxX+0Ts/3BAg5B51tFssjSIVtuMO+a+SDuxOdILmQdCzAb3+E5dKwZv2YllBEy1Qdv9oP5WnKuTgLFe+I05ZR48iTe3Lt1rSiQwuJw8vLPCy5JGxdDvcjECD6/1HX+OBOko3WsPyP50+iwRR/JgiS30FrME7Lxzw+gjiDZCDWTmybA/yhfmVJxZDNl7MvMCZQdZU5YvotuFujoxBeBVHvKmBpCZfp5M6EWzUw3dznecWJMMhPYSIsuWLoCbz0W9rynuTeiKCNG3+r4XLBBwZ3f4QEBtiDITx0VJaMpV9+SuQSRk69raiSl8E4xT+7QJvcmYU7DeLjMS3pMBFlwisUffj7iqLQ8d9rg8Ch7gXYr6Oo+UB3ct9rL6Ayql4qbeleGbdgAftA4mYJZ+/bnEDqvCrxUxwvbkMSASrs7XgdGONUECNg3yUj4TFo+NFpRtdBBvniAxEQsk/qjMLTud'
+    ua = ''
     # 加密后的密码，从浏览器或抓包工具中复制，可重复使用
-    password2 = 'cc73a75e400268042b1acd439e2531fb9f7b7d34c9493b14616d5d91c328b053a987b8435aea4c643160eea5745f1e5d3825cdc272c5cc81eb45bc9d41f5c1b06566b87c965afadfe19e870b3c8f9928599f028f80833322aa1c5dccb9b281a32b7032f0f02db1523fd128af5c2cec2319002e927b6dc5007f6135e55629b8f9'
+    password2 = ''
 
     ul = UsernameLogin(loginId, umidToken, ua, password2)
     ul.login()
